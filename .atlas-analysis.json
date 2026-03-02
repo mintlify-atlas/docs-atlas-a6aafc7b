@@ -1,0 +1,245 @@
+{
+  "projectType": "framework",
+  "projectName": "AdonisJS",
+  "projectDescription": "A backend-first, type-safe framework for building web applications with Node.js and TypeScript",
+  "theme": "mint",
+  "primaryColor": "#5A45FF",
+  "lightColor": "#8B7EFF",
+  "darkColor": "#4631CC",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "stacks-and-starter-kits",
+              "installation",
+              "folder-structure",
+              "dev-environment",
+              "configuration",
+              "deployment",
+              "faqs"
+            ]
+          },
+          {
+            "group": "Tutorial - Hypermedia",
+            "pages": [
+              "tutorial/hypermedia/overview",
+              "tutorial/hypermedia/cli-and-repl",
+              "tutorial/hypermedia/database-and-models",
+              "tutorial/hypermedia/routes-controller-views",
+              "tutorial/hypermedia/forms-and-validation",
+              "tutorial/hypermedia/styling-and-cleanup",
+              "tutorial/hypermedia/authorization"
+            ]
+          },
+          {
+            "group": "Tutorial - React",
+            "pages": [
+              "tutorial/react/overview",
+              "tutorial/react/cli-and-repl",
+              "tutorial/react/database-and-models",
+              "tutorial/react/routes-controller-views",
+              "tutorial/react/forms-and-validation",
+              "tutorial/react/styling-and-cleanup",
+              "tutorial/react/authorization"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "guides/concepts/application-lifecycle",
+              "guides/concepts/dependency-injection",
+              "guides/concepts/service-providers",
+              "guides/concepts/container-services",
+              "guides/concepts/barrel-files",
+              "guides/concepts/assembler-hooks",
+              "guides/concepts/scaffolding",
+              "guides/concepts/extending-adonisjs"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Basics",
+            "pages": [
+              "guides/basics/routing",
+              "guides/basics/controllers",
+              "guides/basics/http-context",
+              "guides/basics/middleware",
+              "guides/basics/request",
+              "guides/basics/response",
+              "guides/basics/body-parser",
+              "guides/basics/validation",
+              "guides/basics/file-uploads",
+              "guides/basics/session",
+              "guides/basics/url-builder",
+              "guides/basics/exception-handling",
+              "guides/basics/debugging",
+              "guides/basics/static-file-server"
+            ]
+          },
+          {
+            "group": "Frontend",
+            "pages": [
+              "guides/frontend/edgejs",
+              "guides/frontend/inertia",
+              "guides/frontend/transformers",
+              "guides/frontend/api-client",
+              "guides/frontend/tanstack-query",
+              "guides/frontend/vite"
+            ]
+          },
+          {
+            "group": "Data Layer",
+            "pages": [
+              "guides/database/lucid",
+              "guides/database/redis"
+            ]
+          },
+          {
+            "group": "Authentication",
+            "pages": [
+              "guides/auth/introduction",
+              "guides/auth/verifying-user-credentials",
+              "guides/auth/session-guard",
+              "guides/auth/access-tokens-guard",
+              "guides/auth/basic-auth-guard",
+              "guides/auth/custom-auth-guard",
+              "guides/auth/social-authentication",
+              "guides/auth/authorization"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "guides/security/hashing",
+              "guides/security/encryption",
+              "guides/security/cors",
+              "guides/security/securing-ssr-applications",
+              "guides/security/rate-limiting"
+            ]
+          },
+          {
+            "group": "Digging Deeper",
+            "pages": [
+              "guides/digging-deeper/cache",
+              "guides/digging-deeper/drive",
+              "guides/digging-deeper/emitter",
+              "guides/digging-deeper/health-checks",
+              "guides/digging-deeper/i18n",
+              "guides/digging-deeper/locks",
+              "guides/digging-deeper/logger",
+              "guides/digging-deeper/mail",
+              "guides/digging-deeper/opentelemetry"
+            ]
+          },
+          {
+            "group": "Command Line",
+            "pages": [
+              "guides/ace/introduction",
+              "guides/ace/creating-commands",
+              "guides/ace/arguments",
+              "guides/ace/flags",
+              "guides/ace/prompts",
+              "guides/ace/terminal-ui",
+              "guides/ace/repl"
+            ]
+          },
+          {
+            "group": "Testing",
+            "pages": [
+              "guides/testing/introduction",
+              "guides/testing/api-tests",
+              "guides/testing/browser-tests",
+              "guides/testing/console-tests",
+              "guides/testing/resetting-state-between-tests",
+              "guides/testing/test-doubles"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "reference/application",
+              "reference/adonisrc-rcfile",
+              "reference/commands",
+              "reference/edge",
+              "reference/events",
+              "reference/exceptions",
+              "reference/helpers",
+              "reference/string-helpers",
+              "reference/types-helpers"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "contributing",
+              "releases",
+              "governance",
+              "v6-to-v7"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Type-safe MVC framework",
+    "Built-in authentication with multiple guards",
+    "Lucid ORM for database operations",
+    "Edge templating engine",
+    "Comprehensive validation with VineJS",
+    "Built-in testing framework",
+    "CLI tooling (Ace commands)",
+    "Session management and cookies",
+    "File uploads and storage",
+    "Rate limiting and security",
+    "Caching and Redis support",
+    "Email sending with multiple drivers",
+    "Internationalization (i18n)",
+    "Event emitter system",
+    "Health checks and monitoring",
+    "Dependency injection container",
+    "Service providers pattern",
+    "Middleware system",
+    "Inertia.js integration",
+    "Vite integration for frontend assets"
+  ],
+  "publicApiSurface": [
+    "router.get/post/put/delete/patch",
+    "Application",
+    "HttpContext",
+    "Request",
+    "Response",
+    "Route",
+    "Middleware",
+    "Controller",
+    "Model (Lucid ORM)",
+    "Database query builder",
+    "Auth guards (Session, AccessTokens, BasicAuth)",
+    "Validator (VineJS)",
+    "Cache",
+    "Drive (file storage)",
+    "Emitter (events)",
+    "Hash",
+    "Encryption",
+    "Mail",
+    "Logger",
+    "I18n",
+    "Ace commands",
+    "TestContext",
+    "Edge templates"
+  ]
+}
